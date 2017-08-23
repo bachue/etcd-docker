@@ -21,4 +21,4 @@ RUN mkdir /etcd-data
 VOLUME /etcd-data
 ENV ETCD_DATA_DIR /etcd-data
 
-CMD ["/usr/bin/etcd"]
+ENTRYPOINT ["/usr/bin/etcd"]
